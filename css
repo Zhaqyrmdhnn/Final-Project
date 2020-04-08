@@ -1,0 +1,238 @@
+<html>
+    <head>
+        <title>Tentang Kampus | Program Studi Informatika</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body bgcolor="#dfe4ea">
+        <div class="container" style="height: 1100px;">
+            <div class="head">
+                <div class="logo"><img src="img/logo.png" width="100%" height="100%"></div>
+                <div class="title">
+                    <font style="font-size: 27px; font-weight: bold;">Program Studi Informatika</font><br> 
+                    <font style="font-size: 15px; font-weight: bold;">Fakultas Matematika dan Ilmu Pengetahuan Alam</font><br>
+                    <font style="font-size: 15px; font-weight: bold;">Universitas Udayana</font> 
+                </div>
+            </div>
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="about.html">Tentang Kampus</a></li>
+                        <li><a href="pengajar.html">Profil Pengajar</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <img src="img/kampus.png" class="img-header">
+            <div class="about-content">
+                <font style="font-size:20px; font-weight:bold;">Sejarah Prodi Informatika</font><br>
+                <p style="margin-top: 5px;">Ilmu Komputer merupakan ilmu terapan dari ilmu-ilmu dasar yang mengalami perkembangan sangat pesat seiring dengan pesatnya perkembangan Ilmu Pengetahuan dan Teknologi (IPTEK). Penguasaan bidang ilmu komputer belakangan ini sangatlah dirasa perlu dalam meningkatkan sumber daya manusia sebagai tuntutan dari perkembangan teknologi. Khususnya dalam mendukung peningkatan kualitas Tridarma Perguruan Tinggi di dalam institusi dan untuk menunjang proses-proses pembangunan masyarakat (daerah dan nasional), bidang ilmu komputer dirasa sangat perlu dikembangkan di Universitas Udayana (UNUD). </p>
+                <p>Gejala meningkatnya kebutuhan terhadap tenaga-tenaga terdidik, trampil dan profesional di bidang ilmu komputer dan terapannya telah diantisipasi pimpinan UNUD sejak tahun 2005.  Ber- awal dari persetujuan Senat Fakultas Matematika dan Ilmu Pengetahuan Alam Universitas Udayana tanggal 13 Agustus 2005 tentang Pembentukan Program Studi Ilmu komputer di Fakultas MIPA Unud yang kemudian dilanjutkan ketingkat Universitas melalui persetujuan Rapat Pimpinan Unuversitas Udayana tanggal 15 September 2005 yang menyetujui pendirian Jurusan Ilmu Komputer di Fakultas MIPA Unud. </p>    
+                <p>Seiring dengan perjalanan waktu, akhirnya pada tanggal 12 April 2006 dikeluarkanlah Ijin Penyelenggaraan PS Ilmu komputer dari DIRJEN DIKTI dengan Surat Keputusan DIKTI No. 1193/D/T/ 2006 yang berlaku selama 2 tahun terhitung dari tahun pertama akademik, maka Jurusan/PS Ilmu komputer FMIPA UNUD secara resmi menyelenggarakan perkuliahan untuk mahasiswa angkatan I (tahun akademik 2006/ 2007) pada tanggal 3 September 2006 dengan jumlah mahasiswa terdaftar 100 (seratus) orang dari kapasitas sebenarnya yang hanya 50 (lima puluh) orang. Animo masyarakat untuk mendalami bidang ilmu komputer memang sangat tinggi dapat, dilihat dari banyaknya pendaftar pada angkatan pertama ini sebanyak 291 orang. Begitu juga pada tahun ajaran 2007/2008 dimana Jurusan Ilmu Komputer sebagai jurusan baru sudah dapat mensejajarkan diri dengan  jurusan-jurusan faforit lainnya dalam penerimaan mahasiswa dengan masuknya Jurusan Ilmu Komputer sebagai salah satu jurusan yang memperolah mahasiswa sesuai dengan kuwota peneriamaan sehingga tidak ada bangku kosong.</p>
+                <font style="font-size:20px; font-weight:bold;">Visi dan Misi Prodi Informatika</font><br>
+                <font style="font-size:15px; font-weight:bold;">Visi:</font><br>
+                <ol>
+                    <li>Menjadi program studi yang unggul dan mandiri di tingkat nasional pada pengembangan bidang ilmu komputer  dalam pelestarian budaya pada tahun 2020.</li>
+                </ol>
+                <font style="font-size:15px; font-weight:bold;">Misi:</font><br>
+                <ol>
+                    <li>Menyelenggarakan dan mengorganisasikan pendidikan yang adaptif dan responsif pada kebutuhan pelestarian budaya.</li>
+                    <li>Mengembangkan penelitian dan pengabdian kepada masyarakat di bidang teknologi informasi pelestarian budaya.</li>
+                    <li>Menciptakan lulusan yang berkualitas, mandiri, dan profesional dalam mengembangkan teknologi informasi  sesuai dengan norma dan etika yang berlaku.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="footer">Copyright &copy 2020 - All Rights Reserved - Informatika, FMIPA, Udayana</div>
+    </body>
+</html> 
+ 189  Modul 6/css/style.css 
+@@ -0,0 +1,189 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    height: 1320px;
+    width: 900px;
+    margin: auto;
+    padding-bottom: 1000px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #fff;
+    padding: 20px;
+}
+.head{
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    height: 100px;
+    width: 90px;
+    float: left;
+}
+.title{
+    height: 90px;
+    float: right;
+    width: 89%;
+    padding: 10px 0px 0px 0px;
+}
+#menu{
+    height: 45px;
+    width: 100%;
+    background-color: #1B1464;
+    margin: 0px 0px 10px 0px ;
+    font-size: 14px;
+}
+nav ul {
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+}
+nav ul li{
+    float:left;
+    padding: 10px 0px 10px 0px;
+}
+nav ul li:hover{
+    background-color:#FFC312;
+    height: 25px;
+    transition: background-color 1s ease;
+}
+nav ul li:hover a{
+    color:#222f3e;
+}
+nav ul li a{
+    padding: 0px 15px 0px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.img-header{
+    width: 100%;
+}
+.content-welcome{
+    height: auto;
+    width: 800px;
+    padding: 5px 50px 0px 50px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.content-about{
+    height: 260px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #1B1464;
+}
+.content-about-teks{
+    height: auto;
+    width: 370px;
+    float: right;
+    color: #fff !important;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 23px 15px 15px 15px;
+}
+.content-about-img{
+    height: 200px;
+    width: 490px;
+    float: left;
+}
+.btn{
+    border:none;
+    border-radius: 5px;
+    padding: 4px 10px 4px 10px;
+    float: left;
+    margin-top: 3px;
+    background-color:#FFC312;
+    color: #2f3640;
+    font-weight: bold;
+}
+.news-container{
+    width: 100%;
+    height: 250px;
+}
+.news-card{
+    width: 182px;
+    height: 220px;
+    float: left;
+    margin-right: 15px;
+    font-size: 13px;
+    padding: 15px;
+    border: 1px solid #7f8fa6;
+}
+.news-card-nomargin{
+    width: 181px;
+    height: 219px;
+    float: left;
+    padding: 15px;
+    font-size: 13px;
+    border: 1px solid #7f8fa6;
+}
+.gallery-container{
+    width: 100%;
+    height: 75px;
+}
+.gallery-card{
+    width: 141px;
+    height: 75px;
+    float: left;
+    margin-right: 10px;
+}
+.gallery-card-nomargin{
+    width: 145px;
+    height: 75px;
+    float: left;
+}
+.footer{
+    height: 20px;
+    width: 910px;
+    padding: 15px;
+    background-color: #2f3640;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    margin: auto;
+}
+.about-content{
+    height: auto;
+    width: 100%;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.profil-container{
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+}
+.profil-card{
+    width: 182px;
+    height: 220px;
+    float: left;
+    margin-right: 15px;
+    font-size: 13px;
+    padding: 15px;
+    border: 1px solid #7f8fa6;
+}
+.img{
+    display: block;
+    margin: auto;
+    border: 1px solid #000;
+}
+.profil-card-nomargin{
+    width: 181px;
+    height: 219px;
+    float: left;
+    padding: 15px;
+    font-size: 13px;
+    border: 1px solid #7f8fa6;
+}
+.profil-title{
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.profil-sub{
+    font-size: 11px;
+    font-style: italic;
+    text-align: center;
+} 
